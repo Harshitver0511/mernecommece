@@ -7,7 +7,7 @@ const errorhandler=require('./middleware/error');
 const cookieparser=require('cookie-parser');
 const bodyparser=require('body-parser');
 const fileupload=require('express-fileupload');
-dotenv.config({path:'server/config/.env'});
+dotenv.config({path:'config/.env'});
 app.use(cookieparser());
 
 app.use(cors());
